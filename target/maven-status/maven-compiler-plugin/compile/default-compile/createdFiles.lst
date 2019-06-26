@@ -1,0 +1,6 @@
+fr/grizz/persistence/MonstreDAO.class
+fr/grizz/service/MonstreService.class
+fr/grizz/model/Monstre.class
+fr/grizz/app/Application.class
+fr/grizz/controller/CarteController.class
+fr/grizz/controller/MonstreController.class
