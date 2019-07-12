@@ -1,0 +1,15 @@
+/home/grizz/Documents/Projet/JAVA/project-strat/src/main/java/fr/grizz/service/MonstreService.java
+/home/grizz/Documents/Projet/JAVA/project-strat/src/main/java/fr/grizz/model/UserCompte.java
+/home/grizz/Documents/Projet/JAVA/project-strat/src/main/java/fr/grizz/controller/TokenController.java
+/home/grizz/Documents/Projet/JAVA/project-strat/src/main/java/fr/grizz/security/AdditionalWebConfig.java
+/home/grizz/Documents/Projet/JAVA/project-strat/src/main/java/fr/grizz/security/SecurityConfiguration.java
+/home/grizz/Documents/Projet/JAVA/project-strat/src/main/java/fr/grizz/persistence/UserCompteDAO.java
+/home/grizz/Documents/Projet/JAVA/project-strat/src/main/java/fr/grizz/service/DefaultCustomerService.java
+/home/grizz/Documents/Projet/JAVA/project-strat/src/main/java/fr/grizz/controller/CarteController.java
+/home/grizz/Documents/Projet/JAVA/project-strat/src/main/java/fr/grizz/security/AuthenticationProvider.java
+/home/grizz/Documents/Projet/JAVA/project-strat/src/main/java/fr/grizz/persistence/MonstreDAO.java
+/home/grizz/Documents/Projet/JAVA/project-strat/src/main/java/fr/grizz/model/Monstre.java
+/home/grizz/Documents/Projet/JAVA/project-strat/src/main/java/fr/grizz/app/Application.java
+/home/grizz/Documents/Projet/JAVA/project-strat/src/main/java/fr/grizz/controller/MonstreController.java
+/home/grizz/Documents/Projet/JAVA/project-strat/src/main/java/fr/grizz/security/AuthenticationFilter.java
+/home/grizz/Documents/Projet/JAVA/project-strat/src/main/java/fr/grizz/service/UserCompteService.java
