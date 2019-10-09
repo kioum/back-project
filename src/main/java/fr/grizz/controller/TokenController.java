@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import fr.grizz.model.UserCompte;
+import fr.grizz.DTOdb.UserCompte;
 import fr.grizz.service.UserCompteService;
 
 @RestController
@@ -24,6 +24,7 @@ public class TokenController {
        if(StringUtils.isEmpty(user)){
            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
        }
+       
        return new ResponseEntity<>(user, HttpStatus.OK);
     }
 }

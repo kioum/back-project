@@ -4,7 +4,7 @@ import java.util.Optional;
 
 import org.springframework.security.core.userdetails.User;
 
-import fr.grizz.model.UserCompte;
+import fr.grizz.DTOdb.UserCompte;
 
 public interface UserCompteService {
 

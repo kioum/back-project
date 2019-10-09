@@ -11,7 +11,7 @@ import org.springframework.security.core.userdetails.User;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import fr.grizz.model.UserCompte;
+import fr.grizz.DTOdb.UserCompte;
 import fr.grizz.persistence.UserCompteDAO;
 
 @Service("customerService")
@@ -24,7 +24,7 @@ public class DefaultCustomerService implements UserCompteService {
 
     @Override
     public UserCompte login(String username, String password) {
-        Optional<UserCompte> userOpt = userCompteDAO.login(username);
+        Optional<UserCompte> userOpt = userCompteDAO.findByUserName(username);
         if(userOpt.isPresent()){
             String token = UUID.randomUUID().toString();
             UserCompte user = userOpt.get();

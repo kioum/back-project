@@ -1,11 +1,6 @@
-fr/grizz/security/AuthenticationProvider.class
-fr/grizz/service/DefaultCustomerService.class
-fr/grizz/service/MonstreService.class
-fr/grizz/controller/CarteController.class
-fr/grizz/controller/TokenController.class
-fr/grizz/controller/MonstreController.class
-fr/grizz/persistence/MonstreDAO.class
-fr/grizz/model/Monstre.class
-fr/grizz/app/Application.class
-fr/grizz/security/SecurityConfiguration.class
-fr/grizz/security/AuthenticationFilter.class
+fr\grizz\service\DefaultCustomerService.class
+fr\grizz\security\SecurityConfiguration.class
+fr\grizz\controller\TokenController.class
+fr\grizz\security\AuthenticationProvider.class
+fr\grizz\app\Application.class
+fr\grizz\security\AuthenticationFilter.class

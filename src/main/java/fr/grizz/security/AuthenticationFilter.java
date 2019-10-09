@@ -29,8 +29,8 @@ public class AuthenticationFilter extends AbstractAuthenticationProcessingFilter
     public Authentication attemptAuthentication(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse) throws AuthenticationException, IOException, ServletException {
 
         Optional<String> tokenParam = Optional.ofNullable(httpServletRequest.getHeader(AUTHORIZATION)); //Authorization: Bearer TOKEN
-        String token= StringUtils.isNotEmpty(httpServletRequest.getHeader(AUTHORIZATION))? httpServletRequest.getHeader(AUTHORIZATION) : "";
-        token= StringUtils.removeStart(token, "Bearer").trim();
+        String token = tokenParam.isPresent() ? tokenParam.get() : "";
+        token = StringUtils.removeStart(token, "Bearer").trim();
         Authentication requestAuthentication = new UsernamePasswordAuthenticationToken(token, token);
         return getAuthenticationManager().authenticate(requestAuthentication);
 

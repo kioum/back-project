@@ -7,7 +7,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
-@EntityScan("fr.grizz.model")
+@EntityScan("fr.grizz.DTOdb")
 @EnableJpaRepositories(basePackages="fr.grizz.persistence")
 @ComponentScan("fr.grizz.*")
 public class Application {
